@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"
+		<title>HTML Shell Placeholder</title>
+	</head>
+
+		<body>
+			<p> This document is simply meant as a test to check the Git Push command to this repository.</p>
+		</body>
+
+</html>

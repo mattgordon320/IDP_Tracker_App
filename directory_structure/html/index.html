@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+	<head>
+		<meta charset= "utf-8">
+		<title>Template Site</title>
+		<meta name="description" content="Short description goes here.">
+		<meta name="keywords" content="Key, words, go, here">	
+	<!--Link to external style sheet(s)-->
+		<link rel="stylesheet" type="text/css" media="screen" href="main.css">
+		<link rel="stylesheet" type="text/css" media="print" href="print.css">
+	</head>
+	
+	<body>
+<!--Start of Page Header-->
+	<header>
+		<h1>Most Important Header</h1>
+		<p>Here is some optional text...</p>
+			
+	<!--Logo-->
+		<!--Place/link Logo Image here, if any-->
+		
+	<!--User/Member Login-->
+		<form id="userLogin">
+			<div>
+				<label for="user">User:</label>
+				<input type="text" id="user"/>
+			</div>
+			<div>
+				<label for="password">Password:</label>
+				<input type="password" id="password"/>
+			</div>
+		</form>
+		
+	<!--Sample Site Navigation-->
+		<nav>
+			<ul>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="productService.html">Product/Service</a></li>
+				<li><a href="support.html">Support</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+				<li><a href="http://www.google.com">External link</a></li>
+			</ul>
+		</nav>
+	<!--Search Form-->
+	<input type="text" placeholder="search"/>
+	</header>
+<hr>
+
+<!--Article/Section content-->
+	<article id="article">
+	
+		<section id="section1">
+			<h2>First Thing</h2>
+			<p>Here is some text...</p>
+				<img src="SampleImage.jpg" title="Bora Bora." alt="Alternate (nopic) Text Here">
+		</section>
+		<section id="section2">
+			<h2>Second Thing</h2>
+			<p>Here is some more text...</p>
+		</section>
+		<section id="section3">
+			<h2>Third Thing</h2>
+			<p>Here is even some more text...</p>
+		</section>
+	</article>
+	
+			
+<hr>
+			
+<!--Start of General Contact Form-->
+	<form id="contactForm">
+		<fieldset>
+			<legend>Basic Form Without Styling</legend>
+			<div>
+				<label for="firstName">First Name:</label>
+				<input type="text" id="firstName"/>
+			</div>
+		<br>
+			<div>
+				<label for="lastName">Last Name:</label>
+				<input type="text" id="lastName"/>
+			</div>
+		<br>
+			<div>
+				<label for="email">Email:</label>
+				<input type="email" id="email"/>
+			</div>
+		<br>
+			<div>
+				<label for="message">How Can we Help You?</label>
+				<textarea id="message"></textarea>
+			</div>
+		<br>
+			<div>
+				<select name="contactPreference">
+					<option>Morning</option>
+					<option>Afternoon</option>
+					<option>Evening</option>
+				</select>
+			</div>
+		<br>
+			<div class="SubmitButton">
+				<button type="submit">Send</button>
+			</div>
+		</fieldset>
+	</form>
+<!--End of Form-->
+			
+<!--Start of Footer-->
+	<!--Include: Author, Links to related documents, copyright data...etc-->
+		<footer>
+			<p>Copyright &copy; 2013 Company Name</p>
+		</footer>
+		
+<!--Consider placing script files here-->
+		<script type="text/javascript" src="java/file.js"></script>
+		<script type="text/javascript" src="java/anotherFile.js"></script>
+	</body>
+</html>
